@@ -1,0 +1,9 @@
+def bonAppetit(bill, k, b):
+    sum=0
+    for i in range(len(bill)):
+        sum=sum+bill[i]
+    annaSum = (sum-bill[k])//2
+    if annaSum==b:
+        print("Bon Appetit")
+    else:
+        print((sum//2)-annaSum)
