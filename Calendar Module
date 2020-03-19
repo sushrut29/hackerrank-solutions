@@ -1,0 +1,6 @@
+import calendar
+n = list(map(int, input().split(" ")))
+d= calendar.weekday(n[2], n[0], n[1])
+days =["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", 
+                         "FRIDAY", "Saturday", "Sunday"] 
+print(days[d].upper())
